@@ -53,24 +53,24 @@
 
     <!-- HEADER -->
 
-    <header>
+    <header id="header" class="sticky">
 
         <h1>Swooping Eagles</h1>
         <!-- <img src="img/bg-photo.jpg" alt="Swooping Eagles Logo"> -->
 
         <nav>
             <ul>
-                <a href="#destinations">
-                    <li >Destinations</li>
+                <a href="#destinations-bm">
+                    <li>Destinations</li>
                 </a>
                 <a href="#inquire">
-                    <li >Inquire</li>
+                    <li>Inquire</li>
                 </a>
                 <a href="#about">
-                    <li >About Us</li>
+                    <li>About Us</li>
                 </a>
                 <a id="facebook" href="http://facebook.com" target="_blank">
-                    <li >Facebook</li>
+                    <li>Facebook</li>
                 </a>
                 <!-- <li>
                     <a href="#inquire">Inquire</a>
@@ -86,8 +86,23 @@
 
     </header>
 
-    <!-- BANNER -->
+    <script>
+        window.onscroll = function () { myFunction() };
 
+        var header = document.getElementById("header");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+
+    <!-- BANNER -->
+   
     <section id="discover">
         <h1>Discover
             <br>Philippines</h1>
@@ -98,6 +113,7 @@
     <!-- DESTINATIONS -->
 
     <section id="destinations">
+        <a id="destinations-bm" class="anchor"></a>
 
         <h1>Hot Destinations</h1>
 
