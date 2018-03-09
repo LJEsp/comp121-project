@@ -1,6 +1,6 @@
 body {
     min-width: 900px;
-    max-width: 70%;
+    max-width: 60%;
 
     margin: 0 auto;
 
@@ -28,7 +28,11 @@ header {
 .sticky {
     top: 0;
     min-width: 900px;
-    max-width: 70%;
+    max-width: 60%;
+}
+
+#discover {
+    padding: 2rem;
 }
 
 /* //////////////////////// DESTINATIONS //////////////////////// */
@@ -40,6 +44,11 @@ header {
 
 #destinations article {
     width: 50%;
+}
+
+#destinations article {
+    padding: 2rem;
+
 }
 
 /* //////////////////////// INQUIRE/ABOUT //////////////////////// */
