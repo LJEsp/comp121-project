@@ -12,7 +12,9 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
 
-    <!-- SMOOTH SCROLL -->
+
+    <!-- //////////////////////// SMOOTH SCROLL SCRIPT //////////////////////// -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
@@ -41,25 +43,37 @@
         });
     </script>
 
-    <!-- CSS -->
+
+    <!-- /////////////////////// FONTS ////////////////////////-->
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,800" rel="stylesheet">
 
+
+    <!-- /////////////////////// CSS ////////////////////////-->
+
     <link rel="stylesheet" href="css/mcleod-reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mq-0-360.css" media="(max-width: 360px)">
+    <link rel="stylesheet" href="css/mq-600-plus.css" media="(min-width: 600px)">
+    <link rel="stylesheet" href="css/mq-900-plus.css" media="(min-width: 900px)">
 </head>
 
 <body>
 
-    <!-- HEADER -->
+
+    <!-- /////////////////////// HEADER //////////////////////// -->
 
     <header id="header" class="sticky">
 
         <h1>Swooping Eagles</h1>
+
         <!-- <img src="img/bg-photo.jpg" alt="Swooping Eagles Logo"> -->
 
         <nav>
             <ul>
+                <a href="#discover">
+                    <li>Home</li>
+                </a>
                 <a href="#destinations-bm">
                     <li>Destinations</li>
                 </a>
@@ -67,10 +81,10 @@
                     <li>Inquire</li>
                 </a>
                 <a href="#about">
-                    <li>About Us</li>
+                    <li>About&nbspUs</li>
                 </a>
                 <a id="facebook" href="http://facebook.com" target="_blank">
-                    <li>Facebook</li>
+                    <li>FB</li>
                 </a>
                 <!-- <li>
                     <a href="#inquire">Inquire</a>
@@ -101,16 +115,23 @@
         }
     </script>
 
-    <!-- BANNER -->
-   
+
+    <!-- /////////////////////// DISCOVER //////////////////////// -->
+
     <section id="discover">
         <h1>Discover
             <br>Philippines</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum numquam quos impedit nihil cupiditate vitae dolore
         </p>
+
+        <button>
+            <a href="#destinations-bm">See Destinations</a>
+        </button>
+
     </section>
 
-    <!-- DESTINATIONS -->
+
+    <!-- /////////////////////// DESTINATIONS //////////////////////// -->
 
     <section id="destinations">
         <a id="destinations-bm" class="anchor"></a>
@@ -177,29 +198,37 @@
             </div>
         </article>
 
-
         <button>See More Destinations</button>
 
     </section>
 
-    <!-- INQUIRE -->
+
+    <!-- /////////////////////// INQUIRE //////////////////////// -->
 
     <section id="inquire" class="info">
         <h1>Inquire</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptate neque harum eligendi quam. Sed necessitatibus
             quaerat molestiae minus totam id ea sint, cupiditate sit nostrum voluptatum at ipsum magnam!</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptate neque harum eligendi quam. Sed necessitatibus
+            quaerat molestiae minus totam id ea sint, cupiditate sit nostrum voluptatum at ipsum magnam!</p>
     </section>
 
-    <!-- ABOUT US -->
 
-    <section id="about" class="info">
+    <!-- /////////////////////// ABOUT US //////////////////////// -->
+
+    <section id="about-us" class="info">
         <h1>About Us</h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quidem repellendus iure esse eos officiis illo vitae
+            perferendis maxime reiciendis tempore facilis labore natus culpa tenetur asperiores, molestias delectus iusto?</p>
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quidem repellendus iure esse eos officiis illo vitae
             perferendis maxime reiciendis tempore facilis labore natus culpa tenetur asperiores, molestias delectus iusto?</p>
     </section>
 
-    <!-- FOOTER -->
+
+    <!-- /////////////////////// FOOTER //////////////////////// -->
 
     <footer>
         <p>Copyright © 2018 Swooping Eagles</p>
