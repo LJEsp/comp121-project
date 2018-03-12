@@ -81,8 +81,13 @@ header > nav > ul a:hover {
     background-color: rgb(25, 130, 120);
 }
 
+#home {
+    border-left: unset;
+}
+
 #facebook {
     background-color: #3b5998;
+    border-right: unset;
     max-width: 6rem;
     /* border-radius: .5rem;
     position: absolute;
