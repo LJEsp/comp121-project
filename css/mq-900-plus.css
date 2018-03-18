@@ -4,13 +4,12 @@ body {
 
     margin: 0 auto;
 
-    background-color: darkgrey;
-    /* background-image: url("../img/bg-photo.jpg");
+    background-image: url("../img/bg-photo-7.jpg");
     background-repeat: no-repeat;
+    background-position: top;
     background-size: cover;
-    background-position: bottom center;
     background-origin: border-box;
-    background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
 /* //////////////////////// HEADER //////////////////////// */
@@ -48,12 +47,10 @@ header {
 
 #destinations article {
     padding: 2rem;
-
 }
 
 /* //////////////////////// INQUIRE/ABOUT //////////////////////// */
 
 .info {
     padding: 1rem 6rem;
-  
 }

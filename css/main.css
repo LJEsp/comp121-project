@@ -2,13 +2,7 @@ body {
     height: 100vh;
     /* width: 100%; */
 
-    /* background-color: dimgray;
-    background-image: url("../img/bg-photo.jpg");
-    background-repeat: no-repeat;
-    background-position:  center;
-    background-size: cover;
-    background-origin: border-box;
-    background-attachment: fixed; */
+    background-color: dimgray;
 
     display: flex;
     flex-flow: row wrap;
