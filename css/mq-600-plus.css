@@ -1,4 +1,12 @@
 #discover h1 {
     font-size: 5rem;
-    
+}
+
+#destinations article:nth-child(even) {
+    border-left: 2px solid lightgray;
+}
+
+#about-us section#team img {
+    width: 9rem;
+    height: 9rem;
 }

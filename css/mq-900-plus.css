@@ -10,6 +10,8 @@ body {
     background-size: cover;
     background-origin: border-box;
     background-attachment: fixed;
+
+    box-shadow: 0 0 3rem 0 dimgray;
 }
 
 /* //////////////////////// HEADER //////////////////////// */
@@ -24,6 +26,13 @@ body {
     padding: 2rem;
 }
 
+/* //////////////////////// DISCOVER //////////////////////// */
+
+#discover button {
+    position: relative;
+    right: 19rem;
+}
+
 /* //////////////////////// DESTINATIONS //////////////////////// */
 
 #destinations > h1 {
@@ -36,7 +45,14 @@ body {
 }
 
 #destinations article {
-    padding: 2rem;
+    padding: 1.5rem 2rem;
+}
+
+#destinations button {
+        padding: 0.6rem 1rem;
+        margin: 1rem auto;
+        margin-bottom: 1.5rem;
+    
 }
 
 /* //////////////////////// INQUIRE/ABOUT //////////////////////// */
@@ -44,3 +60,14 @@ body {
 .info {
     padding: 1rem 6rem;
 }
+
+
+#about-us section#team img {
+    width: 11rem;
+    height: 11rem;
+
+}
+
+/* * {
+    border: 1px solid magenta !important;
+} */
