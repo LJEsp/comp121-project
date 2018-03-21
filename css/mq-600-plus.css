@@ -10,3 +10,21 @@
     width: 9rem;
     height: 9rem;
 }
+
+header section section.social {
+    display: initial;
+}
+
+header section section.social .social-icons {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0 0.5rem;
+
+    vertical-align: middle;
+
+    /* border: 1px solid magenta; */
+}
+
+/* * {
+    border: 1px solid magenta !important;
+} */
