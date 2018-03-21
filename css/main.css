@@ -49,7 +49,7 @@ a.anchor {
 
 header {
     width: 100%;
-    height: fit-content;
+    height: 123px;
 
     background-color: white;
 
@@ -67,7 +67,7 @@ header section {
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
 }
 
 header section h1 {
@@ -97,9 +97,25 @@ header section section {
     flex-grow: 2;
 }
 
+/* LEFT SIDE */
+
 header section section.contact {
     display: none;
 }
+
+header section section.contact svg {
+    width: 1rem;
+    height: 1rem;
+
+    /* vertical-align: middle; */
+}
+
+header section section.contact svg#email-fix {
+    position: relative;
+    top: 3px;
+}
+
+/* RIGHT SIDE */
 
 header section section.social {
     display: flex;
@@ -112,6 +128,7 @@ header section section.social .social-icons {
     margin: 0 0.5rem;
 
     vertical-align: middle;
+    line-height: 1.5rem;
 
     /* border: 1px solid magenta; */
 }
@@ -357,4 +374,4 @@ footer {
 
 * {
     /* border: 1px solid magenta !important; */
-} 
+}

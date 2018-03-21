@@ -1,0 +1,7 @@
+header > nav > ul a {
+    padding: 0.5rem;
+}
+
+header section section.social {
+    flex-flow: row wrap;
+}
