@@ -210,7 +210,7 @@ header > nav > ul a:last-child {
     font-size: 1.5rem;
 }
 
-#discover button {
+#discover a {
     color: white;
     background-color: rgba(177, 80, 0, 0.6);
     border: 2px solid white;
@@ -220,7 +220,7 @@ header > nav > ul a:last-child {
     margin-top: 1rem;
 }
 
-#discover button:hover {
+#discover a:hover {
     background-color: rgba(177, 80, 0, 0.9);
     box-shadow: 0 0.2rem 0.3rem 0 rgba(105, 105, 105, 0.5);
 
@@ -322,19 +322,75 @@ header > nav > ul a:last-child {
     font-size: 1.5rem;
 }
 
-footer {
-    padding: 1rem;
-    text-align: center;
+/* //////////////////////// INQUIRE //////////////////////// */
 
-    color: white;
-    background-color: black;
+form {
+    margin: 1rem 0;
+    flex: 1 1 auto;
 }
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    flex: none;
+    display: block;
+    width: 125px;
+    font-size: 1rem;
+
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+
+.form-group label.right-inline {
+    text-align: left;
+
+    width: auto;
+}
+
+.form-group .input-control {
+    flex: 1 1 auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    padding: 4px;
+    margin-top: -4px;
+
+    border-radius: 0.1rem;
+    color: dimgray;
+}
+
+form input[type="submit"] {
+    width: fit-content;
+    height: fit-content;
+    background-color: dimgray;
+    color: white;
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 5px 15px;
+    margin: 5px;
+    margin-bottom: 0;
+}
+
+form input[type="submit"]:hover {
+    position: relative;
+    top: 0.1rem;
+}
+
+#space {
+    display: none;
+}
+
+* {
+    /* border: 1px solid magenta !important; */
+}
+/* //////////////////////// ABOUT //////////////////////// */
 
 #about-us {
     background-color: lightseagreen;
 }
-
-/* //////////////////////// ABOUT //////////////////////// */
 
 #about-us section#team {
     display: flex;
@@ -370,6 +426,16 @@ footer {
 
 #about-us h2#amazing {
     text-align: center;
+}
+
+/* //////////////////////// FOOTER //////////////////////// */
+
+footer {
+    padding: 1rem;
+    text-align: center;
+
+    color: white;
+    background-color: black;
 }
 
 * {

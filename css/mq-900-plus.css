@@ -32,7 +32,7 @@ header section section.contact {
 
 /* //////////////////////// DISCOVER //////////////////////// */
 
-#discover button {
+#discover a {
     position: relative;
     right: 19rem;
 }
@@ -69,7 +69,22 @@ header section section.contact {
 #about-us section#team img {
     width: 11rem;
     height: 11rem;
+}
 
+.form-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group label.right-inline {
+    text-align: right;
+    padding-right: 8px;
+    padding-left: 10px;
+    width: auto;
+}
+
+#space {
+    display: block;
 }
 
 /* * {
