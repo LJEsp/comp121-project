@@ -10,8 +10,10 @@ body {
     background-size: cover;
     background-origin: border-box;
     background-attachment: fixed;
+}
 
-    box-shadow: 0 0 3rem 0 dimgray;
+header, body > section, footer {
+    /* box-shadow: 0 0 1rem 0 dimgray; */
 }
 
 /* //////////////////////// HEADER //////////////////////// */
@@ -26,7 +28,7 @@ body {
     padding: 2rem;
 }
 
-header section section.contact {
+header section.contact {
     display: initial;
 }
 
@@ -53,10 +55,9 @@ header section section.contact {
 }
 
 #destinations button {
-        padding: 0.6rem 1rem;
-        margin: 1rem auto;
-        margin-bottom: 1.5rem;
-    
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+    margin-bottom: 1.5rem;
 }
 
 /* //////////////////////// INQUIRE/ABOUT //////////////////////// */
@@ -64,7 +65,6 @@ header section section.contact {
 .info {
     padding: 1rem 6rem;
 }
-
 
 #about-us section#team img {
     width: 11rem;
