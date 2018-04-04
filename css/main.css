@@ -287,7 +287,7 @@ header > nav > ul a:last-child {
 }
 
 #tours article a {
-    max-width: 500px;
+    /* max-width: 500px; */
     height: 16rem;
     margin-bottom: 1rem;
 }
@@ -425,6 +425,7 @@ header > nav > ul a:last-child {
     width: 100%;
     margin-bottom: 6px;
     object-fit: cover;
+    object-position: bottom;
 }
 
 .popup__content h2 {
