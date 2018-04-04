@@ -2,7 +2,7 @@
     font-size: 5rem;
 }
 
-#destinations article:nth-child(even) {
+#tours article:nth-child(even) {
     border-left: 2px solid lightgray;
 }
 

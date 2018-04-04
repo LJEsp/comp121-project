@@ -39,22 +39,22 @@ header section.contact {
     right: 19rem;
 }
 
-/* //////////////////////// DESTINATIONS //////////////////////// */
+/* //////////////////////// TOURS //////////////////////// */
 
-#destinations > h1 {
+#tours > h1 {
     width: 100%;
     text-align: center;
 }
 
-#destinations article {
+#tours article {
     width: 50%;
 }
 
-#destinations article {
+#tours article {
     padding: 1.5rem 2rem;
 }
 
-#destinations button {
+#tours button {
     padding: 0.6rem 1rem;
     margin: 1rem auto;
     margin-bottom: 1.5rem;

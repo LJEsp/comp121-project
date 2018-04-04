@@ -261,63 +261,69 @@ header > nav > ul a:last-child {
     transform: translateY(0.1rem);
 }
 
-/* //////////////////////// DESTINATIONS //////////////////////// */
+/* //////////////////////// TOURS //////////////////////// */
 
-#destinations {
+#tours {
     display: flex;
     flex-flow: row wrap;
 
     background-color: white;
 }
 
-#destinations > h1 {
+#tours > h1 {
     padding: 1rem;
     margin: 0 auto;
     color: lightseagreen;
 }
 
-/* DESTINATION ARTICLES */
+/* TOURS ARTICLES */
 
-#destinations article {
+#tours article {
+    display: flex;
+    flex-flow: column nowrap;
     border-top: 2px solid lightgray;
     padding: 2rem;
+    width: 100%;
 }
 
-#destinations article img {
+#tours article img {
     border-radius: 0.5rem;
-    width: 40%;
-    height: 8rem;
+    /* width: 40%; */
+    max-width: 500px;
+    height: 12rem;
     box-shadow: 0 0.2rem 0.5rem 0 rgba(105, 105, 105, 0.8);
 
     float: left;
-    margin-right: 1rem;
+    margin-bottom: 1rem;
 
     object-fit: cover;
+    object-position: bottom;
+
     transition: all 0.1s;
 }
 
-#destinations article img:hover {
-    transform: scale(1.1);
+#tours article img:hover {
+    transform: scale(1.05);
     box-shadow: 0 0.2rem 0.7rem 0 rgba(105, 105, 105, 0.6);
 }
 
-#destinations article div {
+#tours article div {
     overflow: hidden;
-    max-width: 60%;
+    /* max-width: 60%; */
     max-height: 100%;
 }
 
-#destinations article div h2 {
+#tours article div h2 {
     color: dimgray;
     font-size: 1.5rem;
     font-weight: 700;
 }
 
-#destinations article div p {
-    line-height: 1.2;
+#tours article div li {
+    line-height: 1.5;
 }
 
-#destinations button {
+#tours button {
     font-weight: 700;
     color: lightseagreen;
     border: 2px solid lightseagreen;
@@ -333,7 +339,7 @@ header > nav > ul a:last-child {
     transition-timing-function: ease-in-out;
 }
 
-#destinations button:hover {
+#tours button:hover {
     box-shadow: 0 0.2rem 0.3rem 0 rgba(105, 105, 105, 0.5);
 
     transform: translateY(0.1rem);
@@ -373,6 +379,8 @@ form {
 .form-group {
     display: flex;
     flex-direction: column;
+    margin-bottom: 6px;
+    
 }
 
 .form-group label {
@@ -400,7 +408,15 @@ form {
     margin-top: -4px;
 
     border-radius: 0.1rem;
+    border-bottom: 3px solid transparent;
+
     color: dimgray;
+
+    transition: all 0.1s;
+}
+
+.form-group .input-control:focus {
+    border-bottom: 3px solid lightseagreen;
 }
 
 form input[type="submit"] {
@@ -413,12 +429,18 @@ form input[type="submit"] {
     padding: 5px 15px;
     margin: 5px;
     margin-bottom: 0;
+    cursor: pointer;
 }
 
 form input[type="submit"]:hover {
     position: relative;
     top: 0.1rem;
 }
+
+
+form input[type="submit"]:focus {
+    color: lightseagreen;
+} 
 
 textarea {
     resize: none;
