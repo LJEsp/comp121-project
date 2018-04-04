@@ -1,5 +1,3 @@
-
-
 body {
     height: 100vh;
     /* width: 100%; */
@@ -367,7 +365,7 @@ header > nav > ul a:last-child {
 
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -385,6 +383,7 @@ header > nav > ul a:last-child {
 .popup__content {
     display: flex;
     flex-flow: row wrap;
+    position: relative;
     width: 90%;
     max-height: 90vh;
     padding: 6px;
@@ -409,10 +408,10 @@ header > nav > ul a:last-child {
 }
 
 .popup__close {
-    position: fixed;
+    position: absolute;
     top: 1rem;
     right: 1rem;
-    color: white;
+    color: dimgray;
     font-size: 2rem;
 }
 
@@ -422,8 +421,10 @@ header > nav > ul a:last-child {
 }
 
 .popup__right img {
+    height: 12rem;
     width: 100%;
     margin-bottom: 6px;
+    object-fit: cover;
 }
 
 .popup__content h2 {
