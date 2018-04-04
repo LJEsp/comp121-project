@@ -356,6 +356,9 @@ header > nav > ul a:last-child {
 .popup:target {
     visibility: visible;
     opacity: 1;
+}
+
+.popup:target .popup__content {
     transform: scale(1);
 }
 
@@ -375,9 +378,8 @@ header > nav > ul a:last-child {
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 2;
 
-    transform: scale(0.1);
 
-    transition: all 0.1s;
+    transition: opacity 0.2s;
 }
 
 .popup__content {
@@ -390,6 +392,9 @@ header > nav > ul a:last-child {
     background-color: #fff;
     border-radius: 3px;
     overflow: scroll;
+    transform: scale(0.1);
+
+    transition: all 0.2s;
 }
 
 .popup__top {
@@ -423,9 +428,12 @@ header > nav > ul a:last-child {
 .popup__right img {
     height: 12rem;
     width: 100%;
-    margin-bottom: 6px;
     object-fit: cover;
     object-position: bottom;
+}
+
+.popup__right img:not(:last-child) {
+    margin-bottom: 6px;
 }
 
 .popup__content h2 {
@@ -435,9 +443,17 @@ header > nav > ul a:last-child {
     font-weight: 700;
 }
 
+.popup__content ul {
+    margin-bottom: 6px;
+}
+
 .popup__content li {
     margin-bottom: 6px;
-    line-height: 1.2;
+    line-height: 1;
+}
+
+.popup__description {
+    font-size: 0.9rem;
 }
 
 /* //////////////////////// INQUIRE/ABOUT //////////////////////// */
@@ -523,7 +539,7 @@ form {
 }
 
 form input[type="submit"] {
-    width: fit-content;
+    width: 9rem;
     height: fit-content;
     background-color: dimgray;
     color: white;

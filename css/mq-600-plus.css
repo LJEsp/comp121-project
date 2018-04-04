@@ -25,6 +25,39 @@ header section section.social .social-icons {
     /* border: 1px solid magenta; */
 }
 
+.popup__content {
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: hidden;
+}
+
+.popup__left {
+    width: 50%;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.popup__right {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+}
+
+.popup__right img {
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.popup__close {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: white;
+    font-size: 2rem;
+}
+
 /* * {
     border: 1px solid magenta !important;
 } */
