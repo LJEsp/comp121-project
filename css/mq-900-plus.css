@@ -12,9 +12,9 @@ body {
     background-attachment: fixed;
 }
 
-header, body > section, footer {
-    /* box-shadow: 0 0 1rem 0 dimgray; */
-}
+/* header, body > section, footer {
+    box-shadow: 0 0 1rem 0 dimgray;
+} */
 
 /* //////////////////////// HEADER //////////////////////// */
 
@@ -70,7 +70,7 @@ header section.contact {
     width: 11rem;
     height: 11rem;
 }
-
+/* 
 .form-group {
     display: flex;
     flex-direction: row;
@@ -81,11 +81,11 @@ header section.contact {
     padding-right: 8px;
     padding-left: 10px;
     width: auto;
-}
+} */
 
-#space {
+/* #space {
     display: block;
-}
+} */
 
 /* * {
     border: 1px solid magenta !important;
