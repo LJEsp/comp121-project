@@ -6,3 +6,7 @@ header section.social {
     display: flex;
     flex-flow: row nowrap;
 }
+
+header {
+    width: 100vw;
+}

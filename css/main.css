@@ -48,7 +48,7 @@ a.anchor {
 /* //////////////////////// HEADER //////////////////////// */
 
 header {
-    width: 100%;
+    width: 100vw;
     height: 123px;
 
     background-color: white;
