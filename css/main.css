@@ -657,7 +657,7 @@ textarea {
 }
 
 #about-us section#team img:hover {
-    border: 0.25rem solid white;
+    /* border: 0.25rem solid white; */
     transform: scale(1.1);
     box-shadow: 0 0.3rem 1.3rem 0 rgba(16, 92, 88, 0.5);
 }
