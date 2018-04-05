@@ -161,7 +161,7 @@ header > nav > ul a {
     background-color: lightseagreen;
     border-right: 1px solid white;
 
-    font-size: 0.7rem;
+    font-size: 0.75rem;
 
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
