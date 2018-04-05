@@ -28,7 +28,7 @@ header section section.social .social-icons {
 .popup__content {
     display: flex;
     flex-flow: row nowrap;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .popup__left {
