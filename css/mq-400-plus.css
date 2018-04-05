@@ -1,0 +1,8 @@
+header > nav > ul a {
+    padding: 0.6rem;
+}
+
+header section.social {
+    display: flex;
+    flex-flow: row nowrap;
+}

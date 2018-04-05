@@ -119,7 +119,7 @@ header section.contact svg#email-fix {
 
 header section.social {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
 }
 
 header section.social .social-icons {
@@ -154,7 +154,7 @@ header > nav > ul {
 header > nav > ul a {
     width: 100%;
 
-    padding: 0.6rem;
+    padding: 0.5rem;
     text-align: center;
     color: white;
     background-color: lightseagreen;
