@@ -10,3 +10,7 @@ header > nav > ul a {
 header {
     width: 100vw;
 }
+
+body {
+    font-family: "Poppins", sans-serif;
+}
