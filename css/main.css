@@ -118,8 +118,7 @@ header section.contact svg#email-fix {
 /* RIGHT SIDE */
 
 header section.social {
-    display: flex;
-    flex-flow: row wrap;
+    display: none;
 }
 
 header section.social .social-icons {
