@@ -41,6 +41,7 @@ header section section.social .social-icons {
     display: flex;
     flex-flow: column nowrap;
     width: 50%;
+    
 }
 
 .popup__right img {

@@ -125,3 +125,7 @@ header section.contact {
 .popup__right img:not(:last-child) {
     padding-right: 6px;
 }
+
+.popup__right img:not(:last-child) {
+    margin-bottom: 0;
+}
